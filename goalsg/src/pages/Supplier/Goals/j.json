@@ -1,0 +1,311 @@
+{
+	"pillarId": "66fb9bc5d089e3f7d0270b0e",
+	"goalQuestions": 
+	[
+		{
+			"questions": 
+			[
+				{
+					"questionId": "qstn_id_1",
+					"isActive": true,
+					"type": "QUESTION",
+					"text": "We will use <field_id_1> % of reneweable energy in our <field_id_2> by the year <field_id_3>",
+					"inputFields": 
+					[
+						{
+							"inputId": "field_id_1",
+							"label": "Percentage",
+							"inputType": "number",
+							"isMandatory": true,
+							"minValue": 0,
+							"maxValue": 100
+						},
+						{
+							"inputId": "field_id_2",
+							"label": "Area",
+							"inputType": "dropdown",
+							"options": [
+								"Supplychain",
+								"Operations",
+                                "Manufacturing"
+							],
+							"isMandatory": true,
+							"default": "Option 1"
+						},
+						{
+							"inputId": "field_id_3",
+							"label": "year",
+							"inputType": "number",
+							"isMandatory": true,
+							"minValue": "",
+							"maxValue": ""
+						}
+					]
+				},
+				{
+					"questionId": "qstn_id_2",
+					"isActive": true,
+					"type": "QUESTION",
+					"text": "We will implement <field_id_1> in our <field_id_2> to generate <field_id_3> kilowatt electricity anually by the year <field_id_4>",
+					"inputFields": 
+					[
+						{
+							"inputId": "field_id_1",
+							"label": "dropdown",
+							"inputType": "dropdown",
+                            "options":[
+                                "Solar power plants",
+                                "Wind turbines",
+                                "Hydropower"
+                            ],
+							"isMandatory": true,
+                            "default": "Option 1"
+						},
+						{
+							"inputId": "field_id_2",
+							"label": "dropdown",
+							"inputType": "dropdown",
+							"options": [
+								"business",
+								"operations",
+                                "facilities"
+							],
+							"isMandatory": true,
+                            "default": "Option 1"
+						},
+						{
+							"inputId": "field_id_3",
+							"label": "number",
+							"inputType": "number",
+							"isMandatory": true
+						},
+						{
+							"inputId": "field_id_4",
+							"label": "year",
+							"inputType": "number",
+							"isMandatory": true
+						}
+					]
+				},
+                {
+					"questionId": "qstn_id_3",
+					"isActive": true,
+					"type": "QUESTION",
+					"text": "We will decrease <field_id_1> of conventional energy by the year <field_id_2>.",
+					"inputFields": 
+					[
+						{
+							"inputId": "field_id_1",
+							"label": "percentage",
+							"inputType": "number",
+                            "minValue": 0,
+							"maxValue": 100,
+                            "isMandatory": true
+						},
+						{
+							"inputId": "field_id_2",
+							"label": "year",
+							"inputType": "number",
+							"isMandatory": true
+						}
+					]
+				}
+
+			]	
+		}
+	]
+}
+
+
+{
+	"pillarId": "66fb9c51d089e3f7d0270b0f",
+	"goalQuestions": 
+	[
+		{
+			"questions": 
+			[
+				{
+					"questionId": "qstn_id_1",
+					"isActive": true,
+					"type": "QUESTION",
+					"text": "We will eliminate <field_id_1>% of the <field_id_2> waste by the year",
+					"inputFields": 
+					[
+						{
+							"inputId": "field_id_1",
+							"label": "Percentage",
+							"inputType": "number",
+							"isMandatory": true,
+							"minValue": 0,
+							"maxValue": 100
+						},
+						{
+							"inputId": "field_id_2",
+							"label": "Area",
+							"inputType": "dropdown",
+							"options": [
+								"Electronics",
+								"Plastic",
+                                "Paper",
+                                "Organic"
+							],
+							"isMandatory": true,
+							"default": "Option 1"
+						},
+						{
+							"inputId": "field_id_3",
+							"label": "year",
+							"inputType": "number",
+							"isMandatory": true,
+							"minValue": "",
+							"maxValue": ""
+						}
+					]
+				},
+				{
+					"questionId": "qstn_id_2",
+					"isActive": true,
+					"type": "QUESTION",
+					"text": "We will have <field_id_1>% of waste recycled from landfill by the year <field_id_2>.",
+					"inputFields": 
+					[
+						{
+							"inputId": "field_id_1",
+							"label": "percentage",
+							"inputType": "number",
+                            "minValue": 0,
+							"maxValue": 100,
+							"isMandatory": true
+                            
+						},
+						{
+							"inputId": "field_id_2",
+							"label": "year",
+							"inputType": "number",
+							"isMandatory": true
+						}
+					]
+				}
+
+			]	
+		}
+	]
+}
+
+
+{
+	"pillarId": "66fb9c86d089e3f7d0270b11",
+	"goalQuestions": 
+	[
+		{
+			"questions": 
+			[
+				{
+					"questionId": "qstn_id_1",
+					"isActive": true,
+					"type": "QUESTION",
+					"text": "We will redesign <field_id_1>% of our <field_id_2> packaging material to be recyclable by the year <field_id_3>.",
+					"inputFields": 
+					[
+						{
+							"inputId": "field_id_1",
+							"label": "Percentage",
+							"inputType": "number",
+							"isMandatory": true,
+							"minValue": 0,
+							"maxValue": 100
+						},
+						{
+							"inputId": "field_id_2",
+							"label": "Area",
+							"inputType": "dropdown",
+							"options": [
+								"PVC",
+								"Plastic",
+                                "Cardboard",
+                                "Metal"
+							],
+							"isMandatory": true,
+							"default": "Option 1"
+						},
+						{
+							"inputId": "field_id_3",
+							"label": "year",
+							"inputType": "number",
+							"isMandatory": true,
+							"minValue": "",
+							"maxValue": ""
+						}
+					]
+				},
+				{
+					"questionId": "qstn_id_2",
+					"isActive": true,
+					"type": "QUESTION",
+					"text": "We will substitute our <field_id_1>% of <field_id_2> packaging materials with more sustainable alternatives by the year <field_id_3>.",
+					"inputFields": 
+					[
+						{
+							"inputId": "field_id_1",
+							"label": "percentage",
+							"inputType": "number",
+                            "minValue": 0,
+							"maxValue": 100,
+							"isMandatory": true,
+                            
+						},
+						{
+							"inputId": "field_id_2",
+							"label": "dropdown",
+							"inputType": "dropdown",
+							"options": [
+								"Plastic",
+								"PVC",
+                                "Styrofoam",
+                                "Glass"
+							],
+							"isMandatory": true,
+                            "default": "Option 1"
+						},
+						{
+							"inputId": "field_id_3",
+							"label": "number",
+							"inputType": "number",
+							"isMandatory": true
+						},
+						{
+							"inputId": "field_id_4",
+							"label": "year",
+							"inputType": "number",
+							"isMandatory": true
+						}
+					]
+				},
+                {
+					"questionId": "qstn_id_3",
+					"isActive": true,
+					"type": "QUESTION",
+					"text": "",
+					"inputFields": 
+					[
+						{
+							"inputId": "field_id_1",
+							"label": "percentage",
+							"inputType": "number",
+                            "minValue": 0,
+							"maxValue": 100,
+                            "isMandatory": true
+						},
+						{
+							"inputId": "field_id_2",
+							"label": "year",
+							"inputType": "number",
+							"isMandatory": true
+						}
+					]
+				}
+
+			]	
+		}
+	]
+}
